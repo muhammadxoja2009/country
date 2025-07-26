@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.box {
+    width: 600px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+input {
+    width: 60%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+}
+
+.flags-ota {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.flags-ota div {
+    text-align: left;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#strelka {
+    font-size: 24px;
+}
+
+.flags-ota img {
+    width: 24px;
+}
+
+select {
+    width: 80px;
+    height: 32px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: blue;
+    color: white;
+}
